@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-02-15T02:45:55.954Z</updated>
+  <updated>2022-02-20T14:53:51.769Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,59 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>编译原理</title>
+    <link href="http://example.com/2022/02/20/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/"/>
+    <id>http://example.com/2022/02/20/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/</id>
+    <published>2022-02-20T12:54:57.000Z</published>
+    <updated>2022-02-20T14:53:51.769Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://baike.baidu.com/item/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/4194">百度总结</a></p><p><a href="https://zhuanlan.zhihu.com/p/130702001">入门笔记</a></p><h1 id="编译的基本流程"><a href="#编译的基本流程" class="headerlink" title="编译的基本流程"></a>编译的基本流程</h1><p><img src="https://img-blog.csdnimg.cn/9a7e467095f9497d96713b481d961afd.png?x-oss-process=image,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA6ZmI5a-M5rqQ55qE5Y2a5a6i,size_18,color_FFFFFF,t_70,g_se,x_16" alt="请添加图片描述"></p><p>词法</p><p>目的就是在连续的字符中识别出一个一个的符号，并尽可能地识别出符号的属性</p><p>语法</p><p>如果说词法分析的作用是从连续的字符中识别出标识符、<a href="https://baike.baidu.com/item/%E5%85%B3%E9%94%AE%E5%AD%97/7105697">关键字</a>、数字、运算符并存储为符号（token）流，语法分析的作用就是从词法分析识别出的符号流中识别出符合C语言语法的语句。</p><p>语义</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://baike.baidu.com/item/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/4194&quot;&gt;百度总结&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/13</summary>
+      
+    
+    
+    
+    <category term="编译原理" scheme="http://example.com/categories/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/"/>
+    
+    
+    <category term="词法" scheme="http://example.com/tags/%E8%AF%8D%E6%B3%95/"/>
+    
+    <category term="语法" scheme="http://example.com/tags/%E8%AF%AD%E6%B3%95/"/>
+    
+    <category term="语义" scheme="http://example.com/tags/%E8%AF%AD%E4%B9%89/"/>
+    
+    <category term="文法" scheme="http://example.com/tags/%E6%96%87%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>算法分析与设计</title>
+    <link href="http://example.com/2022/02/17/%E7%AE%97%E6%B3%95%E6%A6%82%E8%BF%B0/"/>
+    <id>http://example.com/2022/02/17/%E7%AE%97%E6%B3%95%E6%A6%82%E8%BF%B0/</id>
+    <published>2022-02-17T03:08:22.000Z</published>
+    <updated>2022-02-20T12:56:23.250Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h1><p>算法是一种方法论，它有一般的方法步骤，也有一定的前提条件，如果要解决的问题能够很好的满足这个前提条件那么这个算法对解决这个问题来说，它的效率是很高的（中医管这个叫“对症下药”）。</p><h2 id="几种算法："><a href="#几种算法：" class="headerlink" title="几种算法："></a>几种算法：</h2><ol><li>基本的（如何求出最优解，怎么求的算法？）：蛮力法、分治法、减治法、动态规划法和贪心法</li><li>搜索的（最优解已经有了，如何找到最优解，怎么找的算法）：回溯法和分支限界法</li></ol><h2 id="重要的问题类型"><a href="#重要的问题类型" class="headerlink" title="重要的问题类型"></a>重要的问题类型</h2><ol><li>查找问题</li><li> 排序问题</li><li> 图问题</li><li> 组合问题</li><li> 几何问题</li></ol><p>算法是用来解决问题，不能将算法和问题混淆。</p><p>每一种算法都可以解决问题，不过就是效率和优化的问题。</p><h1 id="分述"><a href="#分述" class="headerlink" title="分述"></a>分述</h1><p><font color=#ff2200 size=3 face="黑体">能否一个算法不能很好地解决这个问题，然后用多种算法联合起来解决这个问题？所以重要的不是汉诺塔，而是汉诺塔背后的算法思想</font></p><h2 id="蛮力法"><a href="#蛮力法" class="headerlink" title="蛮力法"></a>蛮力法</h2><p>简单而又直接，暴力求解问题，也可以说是穷举</p><p>实例：</p><h2 id="分治法"><a href="#分治法" class="headerlink" title="分治法"></a>分治法</h2><p>分治法的精髓：</p><p>分–将问题分解为规模更小的相同的子问题；</p><p>治–将这些规模更小的子问题逐个击破；</p><p>合–将已解决的子问题合并，最终得出“母”问题的解；</p><p>个人感觉分治法和递归有点相像。</p><p>分治法所能解决的问题一般具有以下几个特征：</p><p>\1) 该问题的规模缩小到一定的程度就可以容易地解决</p><p>\2) 该问题可以分解为若干个规模较小的相同问题，即该问题具有最优子结构性质。</p><p>\3) 利用该问题分解出的子问题的解可以合并为该问题的解；</p><p>\4) 该问题所分解出的各个子问题是相互独立的，即子问题之间不包含公共的子问题。</p><p>上述的第一条特征是绝大多数问题都可以满足的，因为问题的计算复杂性一般是随着问题规模的增加而增加；</p><p>第二条特征是应用分治法的前提它也是大多数问题可以满足的，此特征反映了递归思想的应用；</p><p>第三条特征是关键，能否利用分治法完全取决于问题是否具有第三条特征，如果具备了第一条和第二条特征，而不具备第三条特征，则可以考虑用<a href="https://baike.baidu.com/item/%E8%B4%AA%E5%BF%83%E7%AE%97%E6%B3%95?fromtitle=%E8%B4%AA%E5%BF%83%E6%B3%95&fromid=1028963">贪心法</a>或<a href="https://baike.baidu.com/item/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E6%B3%95">动态规划法</a>。</p><p>第四条特征涉及到分治法的效率，如果各子问题是不独立的则分治法要做许多不必要的工作，重复地解公共的子问题，此时虽然可用分治法，但一般用<a href="https://baike.baidu.com/item/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E6%B3%95">动态规划法</a>较好。</p><h2 id="减治法"><a href="#减治法" class="headerlink" title="减治法"></a>减治法</h2><p>减治法是分治法的一种。</p><p>分治法是把一个大问题划分为若干个子问题，分别求解各个子问题，然后再把子问题的解进行合并得到原问题的解。</p><p>减治法同样是把一个大问题划分为若干个子问题，但是这些子问题不需要分别求解，只需求解其中的一个子问题，因而也无需对子问题的解进行合并。</p><p>所以，严格的说，减治法应该是一种退化了的分治法，时间复杂性一般是O(log2 n)。——<a href="https://zhuanlan.zhihu.com/p/254860647">程序员麻辣烫</a></p><h2 id="动态规划法"><a href="#动态规划法" class="headerlink" title="动态规划法"></a>动态规划法</h2><p><a href="https://www.zhihu.com/question/23995189">什么是动态规划1？</a></p><p><a href="https://zhuanlan.zhihu.com/p/126361983">什么是动态规划2？</a></p><p>动态规划算法最核心的思想是：递归？</p><p>当你企图使用计算机解决一个问题时，其实就是在思考如何将这个问题表达成状态（用哪些变量存储哪些数据）以及如何在状态中转移（怎样根据一些变量计算出另一些变量）。所以所谓的<a href="https://www.zhihu.com/search?q=%E7%A9%BA%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22answer%22,%22sourceId%22:35429905%7D">空间复杂度</a>就是为了支持你的计算所必需存储的状态最多有多少，所谓<a href="https://www.zhihu.com/search?q=%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22answer%22,%22sourceId%22:35429905%7D">时间复杂度</a>就是从初始状态到达最终状态中间需要多少步！    ——摘自知乎<a href="https://www.zhihu.com/people/anchor89">王勐</a>的回答</p><p>动态规划感觉有点一根筋啊，能不能两头堵啊？哈哈哈</p><p>动态规划虽然和分治法类似，都是将一个问题分为多个子问题，对子问题求解，然后从这些子问题中找到原问题的解，但是不同之处在于动态规划的子问题往往不是相互独立的，这就要记录并保存多个子问题的答案，如何记录保存呢？那就是建个表然后存入，既然要建表所以该算法的空间复杂度要比一般算法大得多，所以它本质是一种以时间换空间的算法。</p><p>适用动态规划的问题必须满足<strong>最优化原理</strong>(最优子结构性质)和<strong>无后效性</strong>。</p><p>最优化原理：最优化原理可这样阐述：一个最优化策略具有这样的性质，不论过去状态和决策如何，对前面的决策所形成的状态而言，余下的诸决策必须构成最优策略。简而言之，一个最优化策略的子策略总是最优的。一个问题满足最优化原理又称其具有最优子结构性质</p><p>无后效性：将各阶段按照一定的次序排列好之后，对于某个给定的阶段状态，它以前各阶段的状态无法直接影响它未来的决策，而只能通过当前的这个状态。换句话说，每个状态都是过去历史的一个完整总结。这就是无后向性，又称为无后效性</p><p><a href="https://zhuanlan.zhihu.com/p/107501014">整几个经典问题练练手：</a></p><ol><li>背包问题</li><li>最短路径</li><li>编辑距离</li><li>…</li></ol><h2 id="贪心法"><a href="#贪心法" class="headerlink" title="贪心法"></a>贪心法</h2><p>贪心算法讲究一个关键点：当前情况下最好的选择(因为贪心，所以只考虑当下不管将来，及时行乐啊)所以该算法得到的是在某种意义上的局部最优解，局部最优解不一定是整体 最优解啊， <font color=#0000ff size=3 face="黑体"> 那这个意思就是说该算法往往会被其他具有概括性、总结性的算法所包含？</font></p><h2 id="回溯法"><a href="#回溯法" class="headerlink" title="回溯法"></a>回溯法</h2><h2 id="分支限界法"><a href="#分支限界法" class="headerlink" title="分支限界法"></a>分支限界法</h2><p><a href="https://max.book118.com/html/2018/0930/6211002052001221.shtm">算法设计与分析 王红梅 pdf课后习题参考答案</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot; title=&quot;概述&quot;&gt;&lt;/a&gt;概述&lt;/h1&gt;&lt;p&gt;算法是一种方法论，它有一般的方法步骤，也有一定的前提条件，如果要解决的问题能够很好的满足这个前提条件那么这个算法对解决这个问题来说，它的效率</summary>
+      
+    
+    
+    
+    <category term="算法" scheme="http://example.com/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>“學醫是救不了中國人的”</title>
