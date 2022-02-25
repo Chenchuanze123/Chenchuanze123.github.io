@@ -1,0 +1,193 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>关于烤盐数学的一些拙见 | CFuYuan'sBlog</title><meta name="keywords" content="数学"><meta name="author" content="CFuYuan"><meta name="copyright" content="CFuYuan"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="数学最重要的应该就是：思路和方法了 为什么有些题我们可以用常规方法求解出来，而有些题挠破头皮都做不出来？ 因为我们没有用对思路，自然不会有好的方法，其实有些题正常解既然求解不出来，说明这题啊有它的特性，得用非常规的思路和方法求解，或者说得用某些技巧性的方法求解。  数学符号X:非空集合 Y:非空集合 f：映射法则 Df：映射f的定义域 Rf：映射f的值域 单射、满射、双射的区别与联系 单射（映射）">
+<meta property="og:type" content="article">
+<meta property="og:title" content="关于烤盐数学的一些拙见">
+<meta property="og:url" content="http://example.com/2022/01/22/%E5%85%B3%E4%BA%8E%E6%95%B0%E5%AD%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E6%80%9D%E8%80%83/index.html">
+<meta property="og:site_name" content="CFuYuan&#39;sBlog">
+<meta property="og:description" content="数学最重要的应该就是：思路和方法了 为什么有些题我们可以用常规方法求解出来，而有些题挠破头皮都做不出来？ 因为我们没有用对思路，自然不会有好的方法，其实有些题正常解既然求解不出来，说明这题啊有它的特性，得用非常规的思路和方法求解，或者说得用某些技巧性的方法求解。  数学符号X:非空集合 Y:非空集合 f：映射法则 Df：映射f的定义域 Rf：映射f的值域 单射、满射、双射的区别与联系 单射（映射）">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://pic2.zhimg.com/80/v2-1e112a55d8e6fbdd4b8eb2cf8dccd03d_720w.png">
+<meta property="article:published_time" content="2022-01-22T07:46:22.000Z">
+<meta property="article:modified_time" content="2022-02-25T01:02:39.849Z">
+<meta property="article:author" content="CFuYuan">
+<meta property="article:tag" content="数学">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://pic2.zhimg.com/80/v2-1e112a55d8e6fbdd4b8eb2cf8dccd03d_720w.png"><link rel="shortcut icon" href="/img/download.jpg"><link rel="canonical" href="http://example.com/2022/01/22/%E5%85%B3%E4%BA%8E%E6%95%B0%E5%AD%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E6%80%9D%E8%80%83/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":50,"languages":{"author":"作者: CFuYuan","link":"链接: ","source":"来源: CFuYuan'sBlog","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '关于烤盐数学的一些拙见',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2022-02-25 09:02:39'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'"><meta name="generator" content="Hexo 6.0.0"><link rel="alternate" href="/atom.xml" title="CFuYuan'sBlog" type="application/atom+xml">
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/1.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data is-center"><div class="data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">17</div></a></div><div class="data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">27</div></a></div><div class="data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">10</div></a></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 文章分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于我</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://pic2.zhimg.com/80/v2-1e112a55d8e6fbdd4b8eb2cf8dccd03d_720w.png')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">CFuYuan'sBlog</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 文章分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于我</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">关于烤盐数学的一些拙见</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-01-22T07:46:22.000Z" title="发表于 2022-01-22 15:46:22">2022-01-22</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-02-25T01:02:39.849Z" title="更新于 2022-02-25 09:02:39">2022-02-25</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">1.1k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>3分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="关于烤盐数学的一些拙见"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>数学最重要的应该就是：<strong>思路</strong>和<strong>方法</strong>了</p>
+<p>为什么有些题我们可以用常规方法求解出来，而有些题挠破头皮都做不出来？</p>
+<p>因为我们没有用对思路，自然不会有好的方法，其实有些题正常解既然求解不出来，说明这题啊有它的特性，得用非常规的思路和方法求解，或者说得用某些技巧性的方法求解。</p>
+<p><img src="https://pic2.zhimg.com/80/v2-1e112a55d8e6fbdd4b8eb2cf8dccd03d_720w.png" alt="img"></p>
+<h1 id="数学符号"><a href="#数学符号" class="headerlink" title="数学符号"></a>数学符号</h1><p>X:非空集合</p>
+<p>Y:非空集合</p>
+<p>f：映射法则</p>
+<p>D<sub>f</sub>：映射f的定义域</p>
+<p>R<sub>f</sub>：映射f的值域</p>
+<h1 id="单射、满射、双射的区别与联系"><a href="#单射、满射、双射的区别与联系" class="headerlink" title="单射、满射、双射的区别与联系"></a>单射、满射、双射的区别与联系</h1><ul>
+<li><p>单射（映射）</p>
+<p>R<sub>f</sub> $\subset$ Y      ($\subset$为真子集)</p>
+<p>X = D<sub>f</sub></p>
+</li>
+<li><p>满射</p>
+<p>D<sub>f</sub>  $\subset$ X</p>
+<p>Y = R<sub>f</sub></p>
+</li>
+<li><p>双射</p>
+<p>R<sub>f</sub> = Y</p>
+<p>D<sub>f</sub> = X</p>
+</li>
+</ul>
+<h1 id="考研数学"><a href="#考研数学" class="headerlink" title="考研数学"></a>考研数学</h1><h2 id="考研数学最重要的是："><a href="#考研数学最重要的是：" class="headerlink" title="考研数学最重要的是："></a>考研数学最重要的是：</h2><p>掌握数学这门学科的基本规律，基本规律就是统一性，唯一性（暂时发现了这么多）</p>
+<p>举个例子：任何可导函数f(x)（泰勒展开）=$\sum$a<sub>n</sub>x<sup>n</sup>，其中的特性是一个f(x)唯一对应一个系数a<sub>n</sub>（一一对应，给我f(x)我给你a<sub>n</sub>，给我a<sub>n</sub>我给你f(x)）,原来唯一的新题是这样出的，所以掌握题目的本质很重要啊。</p>
+<p>另一个例子：在线性代数中，三维坐标下某个向量<strong>op</strong>它可以用规范正交基和坐标表示成<strong>op</strong>=x<strong>i</strong>+y<strong>j</strong>+z<strong>k</strong>，并且这种表示方法可以唯一标识一个向量，那么这个例子里面谁和谁一一对应呢？是<strong>op</strong>和坐标(x,y,z)一一对应。那我们也可以推出来上面那个例子中的基是什么？答得好！是x<sup>n</sup>，所以可以把a<sub>n</sub>和(x,y,z)都理解为系数.</p>
+<p>结合这两个例子来看统一性和唯一性</p>
+<p>统一性：</p>
+<p>不管左边形形色色是个什么样的可导函数，他都可以写成幂函数形式</p>
+<p>不管左边形形色色是个什么样的向量，他都可以写成规范正交基和坐标乘积和的形式</p>
+<p>唯一性：</p>
+<p>一个可到函数对应唯一一个系数</p>
+<p>一个向量对应唯一一个坐标</p>
+<p>要把这些基本规律慢慢领会，融入到自己的脑袋中，甚至是应用在生活中的各个方面。</p>
+<h2 id="套娃"><a href="#套娃" class="headerlink" title="套娃"></a>套娃</h2><p>例如：当x $\rightarrow$0，x-sinx~$$\frac{1}{6}$$x<sup>3</sup>在这个例子中相同的一个符号是什么？</p>
+<p>那必然是x了，x是什么变量啊，套娃的意思我觉得可以理解为数学中的<strong>复合</strong>，所以我们把x可以换掉，换成g(x),还能换成什么呢？答案是什么都可以换，换成“狗”行，哈哈哈哈哈哈哈！听过<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E5%BC%A0%E5%AE%87/22404640">张宇</a>老师的课应该很好理解这个。</p>
+<h2 id="看书"><a href="#看书" class="headerlink" title="看书"></a>看书</h2><p>其中</p>
+<p>如何看考研的书，首先看目录或者看提纲、思维导图这些，这些东西可以快速定位到知识点，然后就是寻求知识点中的相关性，知识点之间都是有联系的，搞懂每一个知识点，以及为什么会有这个知识点（这有助于将知识点们都串起来），然后就是知识成体系。</p>
+<h2 id="如何理解概念？"><a href="#如何理解概念？" class="headerlink" title="如何理解概念？"></a>如何理解概念？</h2><p>不用说概念都是抽象的，那么如何理解抽象的东西？</p>
+<p>那就是举例子了啊，比如说人啊，水果啊，图形啊，这都是抽象出来的概念</p>
+<p>那么怎么很好的理解这个概念呢？</p>
+<p>那就是研究人、水果和图形的性质啊，通过实例化概念来理解就会简单许多。</p>
+<p>人有好人，坏人，老师，学生；水果有芒果，苹果；图形有圆形，矩形</p>
+<p>理解概念的最好方式就是实例化，一个概念如果没有实例，那这个概念理解起来必然十分费劲。</p>
+<p>甚至说这个概念毫无意义，因为所有学科都是研究这个世界的，你连这个东西都不存在，你描述他还有意思吗</p>
+<p>感觉高等数学就是：极限、积分、微分</p>
+<h1 id="极限"><a href="#极限" class="headerlink" title="极限"></a>极限</h1><p>所以，极限的直观意思，就是当x无限趋近于某个数事，f (x)无限趋近于某个数，所以说极限应该是收敛的</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">CFuYuan</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://example.com/2022/01/22/%E5%85%B3%E4%BA%8E%E6%95%B0%E5%AD%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E6%80%9D%E8%80%83/">http://example.com/2022/01/22/%E5%85%B3%E4%BA%8E%E6%95%B0%E5%AD%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E6%80%9D%E8%80%83/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://example.com" target="_blank">CFuYuan'sBlog</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E6%95%B0%E5%AD%A6/">数学</a></div><div class="post_share"><div class="social-share" data-image="https://pic2.zhimg.com/80/v2-1e112a55d8e6fbdd4b8eb2cf8dccd03d_720w.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2022/01/26/Vue%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/"><img class="prev-cover" src="https://img-blog.csdnimg.cn/a4f569821abf4835a1d4fd8f0afc865b.png?x-oss-process=image,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA6ZmI5a-M5rqQ55qE5Y2a5a6i,size_20,color_FFFFFF,t_70,g_se,x_16" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">Vue基础教程</div></div></a></div><div class="next-post pull-right"><a href="/2022/01/12/%E4%B8%8A%E8%BD%AC%E5%9E%8B%E5%AF%B9%E8%B1%A1%E6%88%90%E5%91%98%E6%96%B9%E6%B3%95%E4%B8%8E%E5%8F%98%E9%87%8F%E7%9A%84%E8%AE%BF%E9%97%AE%E7%89%B9%E7%82%B9/"><img class="next-cover" src="https://img-blog.csdnimg.cn/347fcba9226e41eeb133eeaca8ed9812.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA6ZmI5a-M5rqQ55qE5Y2a5a6i,size_20,color_FFFFFF,t_70,g_se,x_16" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">上转型对象成员方法与变量的访问特点</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/1.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">CFuYuan</div><div class="author-info__description">修身 · 齐家 · 治国 · 平天下</div></div><div class="card-info-data is-center"><div class="card-info-data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">17</div></a></div><div class="card-info-data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">27</div></a></div><div class="card-info-data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">10</div></a></div></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/Chenchuanze123"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">这里是CFuYuan的博客，分享计算机的相关知识，以及自己的一些思考，欢迎一起交流学习:)</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%95%B0%E5%AD%A6%E7%AC%A6%E5%8F%B7"><span class="toc-number">1.</span> <span class="toc-text">数学符号</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%8D%95%E5%B0%84%E3%80%81%E6%BB%A1%E5%B0%84%E3%80%81%E5%8F%8C%E5%B0%84%E7%9A%84%E5%8C%BA%E5%88%AB%E4%B8%8E%E8%81%94%E7%B3%BB"><span class="toc-number">2.</span> <span class="toc-text">单射、满射、双射的区别与联系</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%80%83%E7%A0%94%E6%95%B0%E5%AD%A6"><span class="toc-number">3.</span> <span class="toc-text">考研数学</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%80%83%E7%A0%94%E6%95%B0%E5%AD%A6%E6%9C%80%E9%87%8D%E8%A6%81%E7%9A%84%E6%98%AF%EF%BC%9A"><span class="toc-number">3.1.</span> <span class="toc-text">考研数学最重要的是：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%A5%97%E5%A8%83"><span class="toc-number">3.2.</span> <span class="toc-text">套娃</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%9C%8B%E4%B9%A6"><span class="toc-number">3.3.</span> <span class="toc-text">看书</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3%E6%A6%82%E5%BF%B5%EF%BC%9F"><span class="toc-number">3.4.</span> <span class="toc-text">如何理解概念？</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%9E%81%E9%99%90"><span class="toc-number">4.</span> <span class="toc-text">极限</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2022/02/20/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/" title="编译原理"><img src="https://img-blog.csdnimg.cn/bda044695170433b9c4c6d3f714ada9d.png?x-oss-process=image,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA6ZmI5a-M5rqQ55qE5Y2a5a6i,size_20,color_FFFFFF,t_70,g_se,x_16" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="编译原理"/></a><div class="content"><a class="title" href="/2022/02/20/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/" title="编译原理">编译原理</a><time datetime="2022-02-20T12:54:57.000Z" title="发表于 2022-02-20 20:54:57">2022-02-20</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/02/17/%E7%AE%97%E6%B3%95%E6%A6%82%E8%BF%B0/" title="算法分析与设计"><img src="https://img-blog.csdnimg.cn/3ab522e7935c47eba2798635ecef5f6f.png?x-oss-process=image,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA6ZmI5a-M5rqQ55qE5Y2a5a6i,size_20,color_FFFFFF,t_70,g_se,x_16" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="算法分析与设计"/></a><div class="content"><a class="title" href="/2022/02/17/%E7%AE%97%E6%B3%95%E6%A6%82%E8%BF%B0/" title="算法分析与设计">算法分析与设计</a><time datetime="2022-02-17T03:08:22.000Z" title="发表于 2022-02-17 11:08:22">2022-02-17</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/02/06/%E2%80%9C%E5%AD%A6%E5%8C%BB%E6%98%AF%E6%95%91%E4%B8%8D%E4%BA%86%E4%B8%AD%E5%9B%BD%E4%BA%BA%E7%9A%84%E2%80%9D/" title="“學醫是救不了中國人的”"><img src="/img/82046077.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="“學醫是救不了中國人的”"/></a><div class="content"><a class="title" href="/2022/02/06/%E2%80%9C%E5%AD%A6%E5%8C%BB%E6%98%AF%E6%95%91%E4%B8%8D%E4%BA%86%E4%B8%AD%E5%9B%BD%E4%BA%BA%E7%9A%84%E2%80%9D/" title="“學醫是救不了中國人的”">“學醫是救不了中國人的”</a><time datetime="2022-02-06T02:30:45.000Z" title="发表于 2022-02-06 10:30:45">2022-02-06</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/01/26/Vue%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/" title="Vue基础教程"><img src="https://img-blog.csdnimg.cn/a4f569821abf4835a1d4fd8f0afc865b.png?x-oss-process=image,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA6ZmI5a-M5rqQ55qE5Y2a5a6i,size_20,color_FFFFFF,t_70,g_se,x_16" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Vue基础教程"/></a><div class="content"><a class="title" href="/2022/01/26/Vue%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/" title="Vue基础教程">Vue基础教程</a><time datetime="2022-01-26T13:09:30.000Z" title="发表于 2022-01-26 21:09:30">2022-01-26</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/01/22/%E5%85%B3%E4%BA%8E%E6%95%B0%E5%AD%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E6%80%9D%E8%80%83/" title="关于烤盐数学的一些拙见"><img src="https://pic2.zhimg.com/80/v2-1e112a55d8e6fbdd4b8eb2cf8dccd03d_720w.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="关于烤盐数学的一些拙见"/></a><div class="content"><a class="title" href="/2022/01/22/%E5%85%B3%E4%BA%8E%E6%95%B0%E5%AD%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E6%80%9D%E8%80%83/" title="关于烤盐数学的一些拙见">关于烤盐数学的一些拙见</a><time datetime="2022-01-22T07:46:22.000Z" title="发表于 2022-01-22 15:46:22">2022-01-22</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('https://pic2.zhimg.com/80/v2-1e112a55d8e6fbdd4b8eb2cf8dccd03d_720w.png')"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By CFuYuan</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script><div class="js-pjax"></div><canvas class="fireworks" mobile="false"></canvas><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/fireworks.min.js"></script><script defer="defer" id="fluttering_ribbon" mobile="true" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-fluttering-ribbon.min.js"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
