@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://chenchuanze123.github.io/about/index.html</loc>
+    
+    <lastmod>2023-01-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://chenchuanze123.github.io/link/index.html</loc>
+    
+    <lastmod>2023-01-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://chenchuanze123.github.io/2023/01/10/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%A1%86%E6%9E%B6SpringCloud%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E9%80%9A%E7%A5%9E%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/</loc>
+    
+    <lastmod>2023-01-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://chenchuanze123.github.io/2023/01/10/SpringBoot%E7%AC%94%E8%AE%B0-6%E5%B0%8F%E6%97%B6%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/</loc>
     
     <lastmod>2023-01-10</lastmod>
@@ -14,15 +41,6 @@
     <loc>https://chenchuanze123.github.io/2023/01/10/JavaWeb%E5%9F%BA%E7%A1%80-%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E8%B6%85%E7%A5%9E%EF%BC%88%E7%AC%94%E8%AE%B0%EF%BC%8C%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/</loc>
     
     <lastmod>2023-01-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://chenchuanze123.github.io/link/index.html</loc>
-    
-    <lastmod>2022-07-03</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -167,15 +185,6 @@
     <loc>https://chenchuanze123.github.io/2021/07/10/%E5%8A%A8%E6%80%81%E5%88%86%E5%8C%BA%E5%AD%98%E5%82%A8%E7%AE%A1%E7%90%86-%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E8%AF%BE%E8%AE%BE/</loc>
     
     <lastmod>2022-01-31</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://chenchuanze123.github.io/about/index.html</loc>
-    
-    <lastmod>2022-01-30</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -474,6 +483,20 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://chenchuanze123.github.io/tags/%E5%BE%AE%E6%9C%8D%E5%8A%A1/</loc>
+    <lastmod>2023-01-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://chenchuanze123.github.io/tags/%E5%88%86%E5%B8%83%E5%BC%8F%E6%9E%B6%E6%9E%84/</loc>
+    <lastmod>2023-01-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -548,6 +571,13 @@
   
   <url>
     <loc>https://chenchuanze123.github.io/categories/SpringBoot/</loc>
+    <lastmod>2023-01-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://chenchuanze123.github.io/categories/SpringCloud/</loc>
     <lastmod>2023-01-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
