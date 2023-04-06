@@ -6,7 +6,7 @@
   <link href="https://chenchuanze123.github.io/atom.xml" rel="self"/>
   
   <link href="https://chenchuanze123.github.io/"/>
-  <updated>2023-04-05T02:19:19.128Z</updated>
+  <updated>2023-04-06T01:32:37.595Z</updated>
   <id>https://chenchuanze123.github.io/</id>
   
   <author>
@@ -21,14 +21,14 @@
     <link href="https://chenchuanze123.github.io/2023/04/05/%E8%AE%B0%E5%BD%95%EF%BC%9A%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%BF%E7%94%A8Chat-GPT%E8%A7%A3%E5%86%B3%E6%AF%95%E8%AE%BE%E4%B8%AD%E7%9A%84BUG/"/>
     <id>https://chenchuanze123.github.io/2023/04/05/%E8%AE%B0%E5%BD%95%EF%BC%9A%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%BF%E7%94%A8Chat-GPT%E8%A7%A3%E5%86%B3%E6%AF%95%E8%AE%BE%E4%B8%AD%E7%9A%84BUG/</id>
     <published>2023-04-05T01:55:16.000Z</published>
-    <updated>2023-04-05T02:19:19.128Z</updated>
+    <updated>2023-04-06T01:32:37.595Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>​         最近在玩chat-GPT，也在研究毕业设计，但是因为论文的课题是深度学习和关系抽取相关的，第一次接触，所以跑代码的过程中遇到了BUG，搜索引擎搜了好久没找到，有点泄气，忽然想到了GPT。</p><h1 id="解决过程"><a href="#解决过程" class="headerlink" title="解决过程"></a>解决过程</h1><pre><code>     出人意料。竟然用chat-GPT解决了好多BUG，给大家分享一个解决过程，这哥们太顶了。</code></pre><p>​        我先是抛给他我的报错信息，问他如何解决。</p><pre><code> ![我的问题](C:\Users\陈川泽\Desktop\gpt\我的问题.png)</code></pre><p>他进行了回答，然后我用他的方法进行修改，他的回答说我需要实现这个函数，但是我已经实现了，之后我告知他我已实现此函数，依旧报错，如何解决呢</p><p>​         <img src="C:\Users\陈川泽\Desktop\gpt\回答1.png" alt="回答1"></p><p><img src="C:\Users\陈川泽\Desktop\gpt\回答2.png" alt="回答2"></p><p>接着我先是看了一眼参数的设置发现没有问题，接着添加了一些输出语句，一运行并没有打印结果。</p><p>我推测应该是完全没有进入到函数中，然后用了它给的默认的函数，发现报错信息变为了“ <font color=#ff0000  ><strong>index 1 is out of bounds for dimension 1 with size 1</strong></font>” ，我便知道解释器识别了默认函数，但是我自定义的函数并没有识别。</p><p>我在想是不是自定义的函数有点问题（毕竟是github上pull来的），我想了想，何不告诉它这个函数的作用，让它帮我写这个函数。</p><p><img src="C:\Users\陈川泽\Desktop\gpt\回答3.png" alt="回答3"></p><p>不出所料，将他的代码复制过来略作修改，便<font color=#00ff00  ><strong>成功运行</strong></font>，不得不感叹呀，初学深度学习，人工找BUG，不如机器人来的快啊哈哈哈哈哈哈哈 !</p><p><img src="C:\Users\陈川泽\Desktop\gpt\成功运行.png" alt="成功运行"></p><p>强烈推荐大家使用chat-GPT解决问题哦~ </p>]]></content>
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><pre><code>     最近在玩chat-GPT，也在研究毕业设计，但是因为论文的课题是深度学习和关系抽取相关的，第一次接触，所以跑代码的过程中遇到了BUG，搜索引擎搜了好久没找到，有点泄气，忽然想到了GPT。</code></pre><h1 id="解决过程"><a href="#解决过程" class="headerlink" title="解决过程"></a>解决过程</h1><pre><code>     出人意料。竟然用chat-GPT解决了好多BUG，给大家分享一个解决过程，这哥们太顶了。    我先是抛给他我的报错信息，问他如何解决。</code></pre><p><img src="https://img-blog.csdnimg.cn/190f6ea41b2e4a17974e1f4e235f8da6.png" alt="请添加图片描述"></p><p>他进行了回答，然后我用他的方法进行修改，他的回答说我需要实现这个函数，但是我已经实现了，之后我告知他我已实现此函数，依旧报错，如何解决呢</p><p><img src="https://img-blog.csdnimg.cn/8a066694b5ef41789814a2fc1fbd89a1.png" alt="请添加图片描述"></p><p><img src="https://img-blog.csdnimg.cn/72667270f63b4f56b29cfdf5e6251601.png" alt="请添加图片描述"></p><p>我按着它的回答先是看了一眼参数的设置发现没有问题，接着添加了一些输出语句，一运行并没有打印结果。</p><p>我推测应该是完全没有进入到函数中，然后用了它给的默认的函数，发现报错信息变为了“ <font color=#ff0000  ><strong>index 1 is out of bounds for dimension 1 with size 1</strong></font>” ，我便知道解释器识别了默认函数，但是我自定义的函数并没有识别。</p><p>我在想是不是自定义的函数有点问题（毕竟是github上pull来的），我想了想，何不告诉它这个函数的作用，让它帮我写这个函数。</p><p><img src="https://img-blog.csdnimg.cn/7acaead73cb14cd4ac65b4dc8bab0495.png" alt="请添加图片描述"></p><p>不出所料，将他的代码复制过来略作修改，便<font color=#00ff00  ><strong>成功运行</strong></font>，不得不感叹呀，初学深度学习，人工找BUG，不如机器人来的快啊哈哈哈哈哈哈哈 !</p><p><img src="https://img-blog.csdnimg.cn/7eeb6070eef044b0afb556a91504dd59.png" alt="请添加图片描述"></p><p>强烈推荐大家使用chat-GPT解决问题哦~ ~ </p>]]></content>
     
     
       
       
-    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;​         最近在玩chat-GPT，也在研究毕业设计，但是因为论文的课题是深度学习和关系抽取相关的，第一次接触，所以跑代码的过程中</summary>
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;     最近在玩chat-GPT，也在研究毕业设计，但是因为论文的课题是深度学习和关系抽取相关的，第一次接触，所以跑代码的</summary>
       
     
     
