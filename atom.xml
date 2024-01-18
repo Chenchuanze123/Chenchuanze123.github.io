@@ -6,7 +6,7 @@
   <link href="https://chenchuanze123.github.io/atom.xml" rel="self"/>
   
   <link href="https://chenchuanze123.github.io/"/>
-  <updated>2024-01-18T06:03:23.846Z</updated>
+  <updated>2024-01-18T06:26:51.316Z</updated>
   <id>https://chenchuanze123.github.io/</id>
   
   <author>
@@ -17,13 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>我喜欢你</title>
+    <link href="https://chenchuanze123.github.io/2024/01/18/%E6%88%91%E5%96%9C%E6%AC%A2%E4%BD%A0/"/>
+    <id>https://chenchuanze123.github.io/2024/01/18/%E6%88%91%E5%96%9C%E6%AC%A2%E4%BD%A0/</id>
+    <published>2024-01-18T06:25:00.000Z</published>
+    <updated>2024-01-18T06:26:51.316Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/2024/01/18/%E6%88%91%E5%96%9C%E6%AC%A2%E4%BD%A0/1.png" alt="1"></p><p><img src="/2024/01/18/%E6%88%91%E5%96%9C%E6%AC%A2%E4%BD%A0/2.jpg" alt="2"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/2024/01/18/%E6%88%91%E5%96%9C%E6%AC%A2%E4%BD%A0/1.png&quot; alt=&quot;1&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/2024/01/18/%E6%88%91%E5%96%9C%E6%AC%A2%E4%BD</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>xxxx</title>
     <link href="https://chenchuanze123.github.io/2024/01/18/xxxx/"/>
     <id>https://chenchuanze123.github.io/2024/01/18/xxxx/</id>
     <published>2024-01-18T05:31:53.000Z</published>
-    <updated>2024-01-18T06:03:23.846Z</updated>
+    <updated>2024-01-18T06:23:41.047Z</updated>
     
-    <content type="html"><![CDATA[<p>111</p><p><img src="/2024/01/18/xxxx/20230724024159.pngorigin_url=image.png&pos_id=img-eu3tnG4e-1701264763992" alt="外链图片转存失败,源站可能有防盗链机制,建议将图片保存下来直接上传"> // 这里的图片路径直接填图片名即可，不需要在添加其它目录</p><p><img src="/2024/01/18/xxxx/01/18/xxxx/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0hvZG9ycw==,size_16,color_FFFFFF,t_70.png" alt="img"></p><p><img src="/2024/01/18/xxxx/01/18/xxxx/aff53d42422e47a486cb8b7dcf9f335a.jpg" alt="aff53d42422e47a486cb8b7dcf9f335a"></p>]]></content>
+    <content type="html"><![CDATA[<p>111</p><p><img src="/2024/01/18/xxxx/20230724024159.pngorigin_url=image.png&pos_id=img-eu3tnG4e-1701264763992" alt="外链图片转存失败,源站可能有防盗链机制,建议将图片保存下来直接上传"> // 这里的图片路径直接填图片名即可，不需要在添加其它目录</p><p><img src="/2024/01/18/xxxx/xxxx%5C1.png" alt="1"></p><p><img src="/2024/01/18/xxxx/xxxx%5C2.jpg" alt="2"></p>]]></content>
     
     
       
@@ -42,14 +63,14 @@
     <link href="https://chenchuanze123.github.io/2023/04/05/%E8%AE%B0%E5%BD%95%EF%BC%9A%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%BF%E7%94%A8Chat-GPT%E8%A7%A3%E5%86%B3%E6%AF%95%E8%AE%BE%E4%B8%AD%E7%9A%84BUG/"/>
     <id>https://chenchuanze123.github.io/2023/04/05/%E8%AE%B0%E5%BD%95%EF%BC%9A%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%BF%E7%94%A8Chat-GPT%E8%A7%A3%E5%86%B3%E6%AF%95%E8%AE%BE%E4%B8%AD%E7%9A%84BUG/</id>
     <published>2023-04-05T01:55:16.000Z</published>
-    <updated>2024-01-17T12:52:50.991Z</updated>
+    <updated>2024-01-18T06:22:37.957Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p><img src="https://images.cnblogs.com/cnblogs_com/blogs/691938/galleries/2048513/o_211020094029_v2-bdd6a65e2d4d119cedde4b330bd2564f_r.jpg" alt="1"></p><pre><code>     最近在玩chat-GPT，也在研究毕业设计，但是因为论文的课题是深度学习和关系抽取相关的，第一次接触，所以跑代码的过程中遇到了BUG，搜索引擎搜了好久没找到，有点泄气，忽然想到了GPT。</code></pre><h1 id="解决过程"><a href="#解决过程" class="headerlink" title="解决过程"></a>解决过程</h1><pre><code>     出人意料。竟然用chat-GPT解决了好多BUG，给大家分享一个解决过程，这哥们太顶了。</code></pre><p><img src="https://img-blog.csdnimg.cn/d01c72e164664626965e761ae3b7a99e.jpeg" alt="2"></p><pre><code>    我先是抛给他我的报错信息，问他如何解决。</code></pre><p><img src="https://img-blog.csdnimg.cn/190f6ea41b2e4a17974e1f4e235f8da6.png" alt="请添加图片描述"></p><p>他进行了回答，然后我用他的方法进行修改，他的回答说我需要实现这个函数，但是我已经实现了，之后我告知他我已实现此函数，依旧报错，如何解决呢</p><p><img src="https://img-blog.csdnimg.cn/8a066694b5ef41789814a2fc1fbd89a1.png" alt="请添加图片描述"></p><p><img src="https://img-blog.csdnimg.cn/72667270f63b4f56b29cfdf5e6251601.png" alt="请添加图片描述"></p><p>我按着它的回答先是看了一眼参数的设置发现没有问题，接着添加了一些输出语句，一运行并没有打印结果。</p><p>我推测应该是完全没有进入到函数中，然后用了它给的默认的函数，发现报错信息变为了“ <font color=#ff0000  ><strong>index 1 is out of bounds for dimension 1 with size 1</strong></font>” ，我便知道解释器识别了默认函数，但是我自定义的函数并没有识别。</p><p>我在想是不是自定义的函数有点问题（毕竟是github上pull来的），我想了想，何不告诉它这个函数的作用，让它帮我写这个函数。</p><p><img src="https://img-blog.csdnimg.cn/7acaead73cb14cd4ac65b4dc8bab0495.png" alt="请添加图片描述"></p><p>不出所料，将他的代码复制过来略作修改，便<font color=#00ff00  ><strong>成功运行</strong></font>，不得不感叹呀，初学深度学习，人工找BUG，不如机器人来的快啊哈哈哈哈哈哈哈 !</p><p><img src="https://img-blog.csdnimg.cn/7eeb6070eef044b0afb556a91504dd59.png" alt="请添加图片描述"></p><p>强烈推荐大家使用chat-GPT解决问题哦~ ~ </p>]]></content>
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p><img src="/2023/04/05/%E8%AE%B0%E5%BD%95%EF%BC%9A%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%BF%E7%94%A8Chat-GPT%E8%A7%A3%E5%86%B3%E6%AF%95%E8%AE%BE%E4%B8%AD%E7%9A%84BUG/1.png" alt="1"></p><p><img src="/2023/04/05/%E8%AE%B0%E5%BD%95%EF%BC%9A%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%BF%E7%94%A8Chat-GPT%E8%A7%A3%E5%86%B3%E6%AF%95%E8%AE%BE%E4%B8%AD%E7%9A%84BUG/2.jpg" alt="2"></p><pre><code>     最近在玩chat-GPT，也在研究毕业设计，但是因为论文的课题是深度学习和关系抽取相关的，第一次接触，所以跑代码的过程中遇到了BUG，搜索引擎搜了好久没找到，有点泄气，忽然想到了GPT。</code></pre><h1 id="解决过程"><a href="#解决过程" class="headerlink" title="解决过程"></a>解决过程</h1><pre><code>     出人意料。竟然用chat-GPT解决了好多BUG，给大家分享一个解决过程，这哥们太顶了。</code></pre><p><img src="https://img-blog.csdnimg.cn/d01c72e164664626965e761ae3b7a99e.jpeg" alt="2"></p><pre><code>    我先是抛给他我的报错信息，问他如何解决。</code></pre><p><img src="https://img-blog.csdnimg.cn/190f6ea41b2e4a17974e1f4e235f8da6.png" alt="请添加图片描述"></p><p>他进行了回答，然后我用他的方法进行修改，他的回答说我需要实现这个函数，但是我已经实现了，之后我告知他我已实现此函数，依旧报错，如何解决呢</p><p><img src="https://img-blog.csdnimg.cn/8a066694b5ef41789814a2fc1fbd89a1.png" alt="请添加图片描述"></p><p><img src="https://img-blog.csdnimg.cn/72667270f63b4f56b29cfdf5e6251601.png" alt="请添加图片描述"></p><p>我按着它的回答先是看了一眼参数的设置发现没有问题，接着添加了一些输出语句，一运行并没有打印结果。</p><p>我推测应该是完全没有进入到函数中，然后用了它给的默认的函数，发现报错信息变为了“ <font color="#ff0000"><strong>index 1 is out of bounds for dimension 1 with size 1</strong></font>” ，我便知道解释器识别了默认函数，但是我自定义的函数并没有识别。</p><p>我在想是不是自定义的函数有点问题（毕竟是github上pull来的），我想了想，何不告诉它这个函数的作用，让它帮我写这个函数。</p><p><img src="https://img-blog.csdnimg.cn/7acaead73cb14cd4ac65b4dc8bab0495.png" alt="请添加图片描述"></p><p>不出所料，将他的代码复制过来略作修改，便<font color="#00ff00"><strong>成功运行</strong></font>，不得不感叹呀，初学深度学习，人工找BUG，不如机器人来的快啊哈哈哈哈哈哈哈 !</p><p><img src="https://img-blog.csdnimg.cn/7eeb6070eef044b0afb556a91504dd59.png" alt="请添加图片描述"></p><p>强烈推荐大家使用chat-GPT解决问题哦~ ~ </p>]]></content>
     
     
       
       
-    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;https://images.cnblogs.com/cnblogs_com/blogs/691938/gallerie</summary>
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;/2023/04/05/%E8%AE%B0%E5%BD%95%EF%BC%9A%E7%AC%AC%E4%B8%80%E6</summary>
       
     
     
@@ -502,32 +523,6 @@
     <category term="Java" scheme="https://chenchuanze123.github.io/tags/Java/"/>
     
     <category term="编程语言" scheme="https://chenchuanze123.github.io/tags/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>什么是AOP(通俗易懂)</title>
-    <link href="https://chenchuanze123.github.io/2021/11/24/%E4%BB%80%E4%B9%88%E6%98%AFAOP-%E9%80%9A%E4%BF%97%E6%98%93%E6%87%82/"/>
-    <id>https://chenchuanze123.github.io/2021/11/24/%E4%BB%80%E4%B9%88%E6%98%AFAOP-%E9%80%9A%E4%BF%97%E6%98%93%E6%87%82/</id>
-    <published>2021-11-24T03:24:56.000Z</published>
-    <updated>2022-01-31T05:45:54.368Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="怎么通俗怎么来，什么是AOP-思想-呢？"><a href="#怎么通俗怎么来，什么是AOP-思想-呢？" class="headerlink" title="怎么通俗怎么来，什么是AOP 思想 呢？"></a>怎么通俗怎么来，什么是AOP 思想 呢？</h2><p>举个例子：就是有三个方法A,B,C，这三个逼都想找女朋友，那就来一个getGril（）方法吧，然后在A,B,C中都调用一遍getGirl方法，这样A,B,C都顺利找到了女朋友。<br>接着来了一位好兄弟D，他说凭什么要在我的方法内部调用getGirl呢？<br>D坦露：我确实是想找女朋友的，我也确实是想调用她，可是我这方法体实在没有地方盛getGirl（）了，何况爷的方法内部那都是主要业务，能不能跟getGril（）方法说一声，在她那边记录一下，跟她说让她看着点，在我的方法内部中当我的rich（）方法执行完了，就帮我调用一下getGirl（）。<br>getGirl（）听完想了想觉得也合理，就在自己的“<strong>登记表</strong>”中标注了一下，大致意思就是在D执行完rich（）方法后就帮他调用自己（大意就是等D有钱了就找女朋友，悲）。</p><h2 id="我突然觉得解决问题的关键或许是：换个角度，换个立场。"><a href="#我突然觉得解决问题的关键或许是：换个角度，换个立场。" class="headerlink" title="我突然觉得解决问题的关键或许是：换个角度，换个立场。"></a>我突然觉得解决问题的关键或许是：换个角度，换个立场。</h2><p>为什么这么说呢？<br>你看我们以前调用方法那都是什么，都是在方法中写入要调用的方法名，就像上面举得例子一样，要在自己的方法体中调用getGirl方法，这样就让我们自己方法的内部显得很冗杂。打个比方：在没有用AOP之前这个getGirl就像是静态的，她就坐在那里，一动不动，你要用她，她就帮你做事；而当用了AOP之后，她变成动态的了，她就像是变了一个人，她变得主动起来了，她开始关心其他的方法是不是要调用她了。<br>就像是：以前都是其他方法追着跟她说，某时某刻要调用一下你</p><h2 id="相当于：被动等待"><a href="#相当于：被动等待" class="headerlink" title="相当于：被动等待"></a>相当于：被动等待</h2><p>而现在是：她追着其他方法问：你们要调用我吗？调用的话就来我这登记一下</p><h2 id="相当于：主动出击"><a href="#相当于：主动出击" class="headerlink" title="相当于：主动出击"></a>相当于：主动出击</h2><p>如果上述内容懂了，那么去看AOP的概念来理解AOP就可能好理解了：<br><strong>这种在运行时，动态地将代码切入到类的指定方法、指定位置上的编程思想就是面向切面的编程。</strong><br><strong>类的指定方法、指定位置</strong>：说的就是要调用她的方法。<br>我理解的这个<strong>动态</strong>就是：动态地在登记表中去寻找要调用她的方法(A,B,C,D)，动态的将自己的代码切入（插入）到要调用她的方法（A,B,C,D）中.</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;怎么通俗怎么来，什么是AOP-思想-呢？&quot;&gt;&lt;a href=&quot;#怎么通俗怎么来，什么是AOP-思想-呢？&quot; class=&quot;headerlink&quot; title=&quot;怎么通俗怎么来，什么是AOP 思想 呢？&quot;&gt;&lt;/a&gt;怎么通俗怎么来，什么是AOP 思想 呢？&lt;/h2&gt;&lt;</summary>
-      
-    
-    
-    
-    <category term="后端" scheme="https://chenchuanze123.github.io/categories/%E5%90%8E%E7%AB%AF/"/>
-    
-    
-    <category term="面向切面" scheme="https://chenchuanze123.github.io/tags/%E9%9D%A2%E5%90%91%E5%88%87%E9%9D%A2/"/>
-    
-    <category term="动态代理" scheme="https://chenchuanze123.github.io/tags/%E5%8A%A8%E6%80%81%E4%BB%A3%E7%90%86/"/>
     
   </entry>
   
