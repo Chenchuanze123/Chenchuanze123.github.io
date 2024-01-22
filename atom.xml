@@ -6,7 +6,7 @@
   <link href="https://chenchuanze123.github.io/atom.xml" rel="self"/>
   
   <link href="https://chenchuanze123.github.io/"/>
-  <updated>2024-01-19T08:29:36.446Z</updated>
+  <updated>2024-01-22T03:15:35.286Z</updated>
   <id>https://chenchuanze123.github.io/</id>
   
   <author>
@@ -21,21 +21,23 @@
     <link href="https://chenchuanze123.github.io/2024/01/18/%E8%A7%A3%E5%86%B3hexo%E5%9B%BE%E7%89%87%E4%B8%8D%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98/"/>
     <id>https://chenchuanze123.github.io/2024/01/18/%E8%A7%A3%E5%86%B3hexo%E5%9B%BE%E7%89%87%E4%B8%8D%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98/</id>
     <published>2024-01-18T06:32:05.000Z</published>
-    <updated>2024-01-19T08:29:36.446Z</updated>
+    <updated>2024-01-22T03:15:35.286Z</updated>
     
-    <content type="html"><![CDATA[<p>我的hexo+butterfly+github有点问题啊，之前一直是在csdn写文章，然后直接复制到md下，然后上传至博客，但是一开始还好，后来图片就无法加载了。</p><p>具体解决方法，首先确实要安装一个图片的插件，叫做hexo-asset-img，直接用命令装，具体命令可以用我文章末尾的引用的那几篇文章，他们都有写。</p><p>其实我遇到的最大的问题是什么，是别的博主说在md里面插入图片时图片的路径直接用图片名，但是我用的是在创建md文件时，把图片存放在同名的文件夹下，然后再在typora中设置插入图片选择下述方法，其实就是拖拉拽图片之后，图片直接就存放在了同名文件夹下，然后就好用了，就很奇怪。</p><p><img src="/2024/01/18/%E8%A7%A3%E5%86%B3hexo%E5%9B%BE%E7%89%87%E4%B8%8D%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98/image-20240118143515538.png" alt="image-20240118143515538"></p><p><img src="/2024/01/18/%E8%A7%A3%E5%86%B3hexo%E5%9B%BE%E7%89%87%E4%B8%8D%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98/image-20240118143214219.png" alt="image-20240118143214219"></p><p><img src="/2024/01/18/%E8%A7%A3%E5%86%B3hexo%E5%9B%BE%E7%89%87%E4%B8%8D%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98/image-20240118143304100.png" alt="image-20240118143304100"></p><p>这三篇文章合起来解决了我的所有问题<br><a href="https://blog.csdn.net/elexiangchirou/article/details/134699785">1</a><br><a href="https://blog.csdn.net/m0_43401436/article/details/107191688">2</a><br><a href="https://zhuanlan.zhihu.com/p/405551874">3</a></p>]]></content>
+    <content type="html"><![CDATA[<p>我的<strong>hexo+butterfly+github</strong>一言难尽啊。</p><p>不久前的一周，我像往常一样，闲来无事打开CSDN消遣，虽然行业内流传着，CSDN就是垃圾的说法，但是秉持着存在即合理和善待的原则，我还是会光顾一下，我静静地看着我原创的七十多篇文章，以及两百多个粉丝，不仅感叹岁月蹉跎。</p><p>回想大学时无数个日夜，眉头紧锁地调试程序改BUG，热情爆棚，这BUG啊一改就是一宿，第二天听闻学长学姐的“谏言”，一定要坚持写博客，不管写什么，只要写就行，改BUG这种也能写成博客，这样在你找工作的时候，hr会对你另眼相待的，这对于我这种间接性迷茫的半吊子来说，如雪中送炭，他们说的话我深以为然。</p><p>知者，行也。我开始每周都至少写两篇文章，发表在CSDN，然后天天看着那几个赞傻乐，从0个粉丝，慢慢地，到了两百个粉丝。</p><p>写了一阵子，学长学姐又“谏言”说最好搭建一个自己的博客，这样更显得自己“热爱”，我再一次深以为然，然后开始了我的hexo+butterfly+github之旅。</p><p>在我苦苦征战了三天三夜之后，我的博客终于迎来了“首秀”，当时正值算法期末考试，我咔咔一顿写，完成了一篇名为“算法期末复习”的博客，可谓是图文并茂，在考试前一晚，将文章链接甩在了我的朋友圈，大家纷纷留言说我是大佬，这一下给我整的自信坏了，更有甚者问我博客是怎么搭建的，可能是我乐于助人吧，第二天算法考了85，虽然不高，但是也不低。</p><p>从此我养成了在csdn写博客，然后直接复制过来再推送到GitHub上的习惯，可是好景不长，大概过了半年多，我发现hexo中的博客有些异样，让人看了很不爽，全tm是文字，一张图都没有，CSDN的管理员似乎发现了，我在“偷”他们的图，但是我这博客全是字这让人怎么看，这不是给人添堵嘛，唉，大家向来是喜欢看图的，不然也不会有图文并茂这个词，我想到不能给我的博客“抹黑”，我开始着手研究这个问题，最终在2024-01-18 晚上2点解决了。</p><p>就这个事儿让我开心了好一阵子，激动地一宿没睡。</p><p>具体解决方法，首先要安装一个图片的插件，叫做hexo-asset-img，直接用命令装，具体命令可以用下面这几篇文章，他们都有写。</p><p><a href="https://blog.csdn.net/elexiangchirou/article/details/134699785">此解决方案甚推</a></p><p><a href="https://zhuanlan.zhihu.com/p/405551874">此解决方案推荐</a></p><p><a href="https://blog.csdn.net/m0_43401436/article/details/107191688">此解决方案次推</a></p><p>然后一起都变得简单起来了，改几个配置就欧克了。</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;我的hexo+butterfly+github有点问题啊，之前一直是在csdn写文章，然后直接复制到md下，然后上传至博客，但是一开始还好，后来图片就无法加载了。&lt;/p&gt;
-&lt;p&gt;具体解决方法，首先确实要安装一个图片的插件，叫做hexo-asset-img，直接用命令装，具体</summary>
+    <summary type="html">&lt;p&gt;我的&lt;strong&gt;hexo+butterfly+github&lt;/strong&gt;一言难尽啊。&lt;/p&gt;
+&lt;p&gt;不久前的一周，我像往常一样，闲来无事打开CSDN消遣，虽然行业内流传着，CSDN就是垃圾的说法，但是秉持着存在即合理和善待的原则，我还是会光顾一下，我静静地看着我原创</summary>
       
     
     
     
     
     <category term="hexo图片无法加载" scheme="https://chenchuanze123.github.io/tags/hexo%E5%9B%BE%E7%89%87%E6%97%A0%E6%B3%95%E5%8A%A0%E8%BD%BD/"/>
+    
+    <category term="博客搭建" scheme="https://chenchuanze123.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
   </entry>
   
